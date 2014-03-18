@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="utf-8">
+  <title>My AngularJS App</title>
+  <link rel="stylesheet" href="css/app.css"/>
+  
+    <!-- PARTIAL 2-->
+        <script src="js/todo.js"></script>
+        <link rel="stylesheet" href="css/todo.css">
+    <!-- END PARTIAL 2-->
+    
+     <!-- PARTIAL 3 -->
+
+    <!-- END PARTIAL 3-->
+</head>
+<body>
+
+<!-- HEADER -->	
+<div style="padding:10px;background-color:#92AFE5;font-family:arial;font-size:20px;color:#333333" align="center">
+    AngularJS
+</div>
+<!-- END HEADER -->
+
+<ul class="menu" align="left" >
+    <li class="selectedTab"><a href="#/view1" >Data Binding</a></li>
+    <li><a href="#/view2">Controllers</a></li>
+    <!--<li><a href="#/view3">Wire A Backend </a></li> -->
+  </ul>
+
+  <div ng-view style="padding:35px;padding-top:10px"></div>
+
+  <!--<div>Angular seed app: v<span app-version></span></div>-->
+
+  <!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+  -->
+  
+   <script src="js/project.js"></script>
+   
+  <script src="https://cdn.firebase.com/v0/firebase.js"></script>
+  
+  <script src="lib/angular/angular.js"></script>
+  <script src="lib/angular/angular-route.js"></script>
+  <script src="https://cdn.firebase.com/libs/angularfire/0.6.0/angularfire.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/services.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/directives.js"></script>
+ 
+  
+  
+</body>
+</html>

@@ -1,0 +1,38 @@
+/* app css stylesheet */
+
+.menu > li {
+  display: inline;
+  border:1px solid #9E8E8E;
+    text-align:center;
+    color:#333333;
+    width:120px;
+    padding:5px;
+    cursor:pointer;
+}
+.menu > li:hover {
+  display: inline;
+ background-color:#9E8E8E;
+	color:#ffffff !important;
+	border:1px solid #9E8E8E !important;
+}
+.menu > li.selectedTab , .menu > li.selectedTab a{
+  display: inline;
+background-color:#9E8E8E !important;
+	color:#ffffff !important;
+	border:1px solid #9E8E8E !important;
+}
+
+html, body
+{
+	margin: 0;
+	padding: 0;
+	background-color: #cccccc;
+	font-size:14px;
+	font-family:arial;
+	text-align:left;
+}
+a
+{
+	text-decoration:none;
+	color:#333333;
+}

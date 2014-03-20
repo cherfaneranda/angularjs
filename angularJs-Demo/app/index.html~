@@ -7,7 +7,6 @@
   
     <!-- PARTIAL 2-->
         <script src="js/todo.js"></script>
-        <link rel="stylesheet" href="css/todo.css">
     <!-- END PARTIAL 2-->
     
      <!-- PARTIAL 3 -->
@@ -53,4 +52,3 @@
   
 </body>
 </html>
-

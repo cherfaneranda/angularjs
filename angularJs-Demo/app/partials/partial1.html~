@@ -1,7 +1,29 @@
 
+<h3>
+    <u>Basic Example</u>
+</h3>
 <div>
   <label>Name:</label>
   <input type="text" ng-model="yourName" placeholder="Enter a name here">
-  <hr>
-  <h1>Hello {{yourName}}!</h1>
+  <h4>Hello {{yourName}}!</h4>
 </div>
+
+
+<div style="padding-top:10px">
+    <h3>
+        <u>Invoice:</u>
+    </h3>
+    <div ng-app ng-init="qty=1;cost=2">
+        <div>
+            Quantity: <input type="number" ng-model="qty" required >
+        </div>
+        <div>
+            Costs: <input type="number" ng-model="cost" required style="margin-left:16px">
+        </div>
+        <div>
+            <b>Total:</b> <span style="padding-left: 17px">{{qty * cost | currency}}</span>
+        </div>
+    </div>
+</div> 
+
+

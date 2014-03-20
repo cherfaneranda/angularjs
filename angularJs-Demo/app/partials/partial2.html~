@@ -5,6 +5,13 @@
 }
 </style>
 
+<script>
+    $( document ).ready(function() {
+         $('.menu li').removeClass('selectedTab');
+         $('#view2').addClass('selectedTab');
+    });
+</script>
+
 <h2>Add Some Control</h2>
 <div ng-controller="addCtrl">
     <span>{{remaining()}} of {{todos.length}} remaining</span>

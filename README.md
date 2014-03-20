@@ -1,4 +1,4 @@
-<h3> Angular Js </h3>
+<h3> AngularJs </h3>
 
 Ce projet interprète la raison pour laquelle on utilise AngularJS, liste les solutions alternatives et explique qu'est ce que c'est AngularJS et marque son extensibilte.
 
